@@ -1,6 +1,9 @@
 ---
 resources:
-  - pvc.yaml
+  - busybox-pvc-1.yaml
+  - busybox-pvc-2.yaml
+  - busybox-pvc-3.yaml
+  - busybox-pvc-4.yaml
   - deployment.yaml
 commonLabels:
   appname: busybox
